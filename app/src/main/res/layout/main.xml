@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnAt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Atuador 1 - Off" 
+        android:background="#00FF00"/>
+
+    <Button
+        android:id="@+id/btnAt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Atuador 2 - Off" 
+        android:background="#00FF00"/>
+    
+        <Button
+        android:id="@+id/btnServo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Servo Auto - Off" 
+        android:background="#00FF00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Controle Servo"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAngulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Angulo: 0°"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/skbar_servo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:max="180" />
+
+    <TextView
+        android:id="@+id/txtBTread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arduino = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
